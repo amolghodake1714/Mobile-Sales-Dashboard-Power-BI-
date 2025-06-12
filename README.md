@@ -22,4 +22,7 @@ This repository contains an interactive Power BI dashboard built for analyzing m
 
 
 ## 📁 File Details
+- "Mobile Sales Dashboard.pbit": Power BI template file. You can open it using [Power BI Desktop].
+
+- <a href="https://github.com/amolghodake1714/Mobile-Sales-Dashboard-Power-BI-/blob/main/Mobile_Sales_Dashboard.pbit">Mobile Sales Dashboard</a>
 
