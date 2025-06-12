@@ -26,3 +26,28 @@ This repository contains an interactive Power BI dashboard built for analyzing m
 
 - <a href="https://github.com/amolghodake1714/Mobile-Sales-Dashboard-Power-BI-/blob/main/Mobile_Sales_Dashboard.pbit">Mobile Sales Dashboard</a>
 
+
+## 📌 How to Use
+
+1. Download and open the `.pbit` file in Power BI Desktop.
+2. Connect to your mobile sales dataset or use sample data.
+3. Customize visuals as needed.
+
+
+## 💡 Tools Used
+
+- Power BI Desktop
+- Power Query
+- Report View
+- Table View
+- Model View
+- DAX (Data Analysis Expressions)
+- Data Modeling and Transformations
+
+
+
+## ✍️ Author
+
+**Amol Ramdas Ghodake**  
+📧 [amolghodake1714@gmail.com]  
+🔗 LinkedIn Profile: https://www.linkedin.com/in/amol-ghodake-a92949210/ 
