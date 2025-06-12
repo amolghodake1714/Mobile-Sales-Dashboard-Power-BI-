@@ -14,7 +14,21 @@ This repository contains an interactive Power BI dashboard built for analyzing m
     -  Same Period Last Year Report 
 
 - Custom Calender: Four years of custom calender.
--  
+- Calculate Dax
+
+
+ ## Calculated Dax Formulaes:
+ 
+- 'Mobile_Sales_Data'[Transactions] = COUNTROWS(Mobile_Sales_Data)
+- 'Mobile_Sales_Data'[Total_Sales] = SUMX(Mobile_Sales_Data, Mobile_Sales_Data[Units Sold] * Mobile_Sales_Data[Price Per Unit])
+- 'Mobile_Sales_Data'[Total_Quantity] = sum(Mobile_Sales_Data[Units Sold])
+- 'Mobile_Sales_Data'[Average_Price] = AVERAGE(Mobile_Sales_Data[Price Per Unit])
+- 'Mobile_Sales_Data'[MTD] = TOTALMTD([Total_Sales],Custom_Calender[Date].[Date])
+- 'Mobile_Sales_Data'[QTD] = TOTALQTD([Total_Sales],Custom_Calender[Date].[Date])
+- 'Mobile_Sales_Data'[YTD] = TOTALYTD([Total_Sales],Custom_Calender[Date].[Date])
+- 'Mobile_Sales_Data'[Same Period Last Year] = CALCULATE([Total_Sales],SAMEPERIODLASTYEAR(Custom_Calender[Date].[Date]))
+
+
 
 ## 📁 File Details
 - "Mobile Sales Dashboard.pbit": Power BI template file. You can open it using [Power BI Desktop].
@@ -37,6 +51,7 @@ This repository contains an interactive Power BI dashboard built for analyzing m
 - Slicers, charts, Cards, Maps
 - DAX (Data Analysis Expressions)
 - Navigator (Page navigator and bookmarks)
+- Edit Interactions
 
 
 ## 📚 Insights
